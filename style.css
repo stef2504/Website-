@@ -1,0 +1,15 @@
+/* #marking for div id's, while classes are marked by . */
+
+#mainlink {
+    background-color: black;
+    color: blue;
+}
+
+.test{
+    color: red;
+}
+
+.highlightme{
+    background-color: rosybrown;
+}
+

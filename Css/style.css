@@ -1,4 +1,10 @@
 /* #marking for div id's, while classes are marked by . */
+/* press command C then i to change to insert */
+
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.container{display: table;}
+.column{display: table-cell; width: 150px; background-color: #ffffee;}
+.columntwo{display: table-cell;padding-left: 10px;}
 
 #mainlink {
     background-color: black;

@@ -6,7 +6,7 @@ body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luci
 .column{display: table-cell; width: 150px; background-color: #ffffee;}
 .columntwo{display: table-cell;padding-left: 10px;}
 
-#mainlink {
+#main-link {
     background-color: black;
     color: blue;
 }
@@ -22,3 +22,6 @@ body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luci
 #footer {
     background-color: crimson;
 }
+
+.aside-right {float: right; margin-left: 10px; width: 20%; padding: 5px; border: solid 1px black; height: auto;}
+.float-left {float: left; padding-right: 10px;}

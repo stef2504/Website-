@@ -1,27 +1,54 @@
 /* #marking for div id's, while classes are marked by . */
 /* press command C then i to change to insert */
 
-body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-.container{display: table;}
-.column{display: table-cell; width: 150px; background-color: #ffffee;}
-.columntwo{display: table-cell;padding-left: 10px;}
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+.container {
+	display: table;
+}
+.column {
+	display: table-cell;
+	width: 150px;
+	background-color: #ffffee;
+	vertical-align: top;
+}
+.columntwo {
+	display: table-cell;
+	padding-left: 10px;
+}
 
 #main-link {
-    background-color: black;
-    color: blue;
+	background-color: black;
+	color: blue;
 }
 
-.test{
-    color: red;
+.test {
+	color: red;
 }
 
-.highlightme{
-    background-color: rosybrown;
+.highlightme {
+	background-color: rosybrown;
 }
 
 #footer {
-    background-color: crimson;
+	background-color: crimson;
 }
 
-.aside-right {float: right; margin-left: 10px; width: 20%; padding: 5px; border: solid 1px black; height: auto;}
-.float-left {float: left; padding-right: 10px;}
+.aside-right {
+	float: right;
+	margin-left: 10px;
+	width: 20%;
+	padding: 5px;
+	border: solid 1px black;
+	height: auto;
+}
+.float-left {
+	float: left;
+	padding-right: 10px;
+}
+
+.columntwowarbirds {
+	text-align: center;
+}
